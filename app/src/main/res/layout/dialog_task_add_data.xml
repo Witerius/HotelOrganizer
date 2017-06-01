@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/text1"/>
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            app:searchIcon="@drawable/ic_search_white_24dp"
+            app:showAsAction="always"
+            app:theme="@style/Theme.AppCompat.NoActionBar" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/btnClient"
+            android:layout_toStartOf="@+id/btnClient"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:layout_below="@+id/searchView1"
+            android:id="@+id/btContacts"/>
+
+            <LinearLayout
+                android:id="@+id/linLayoutContacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btContacts"
+                android:isScrollContainer="true"
+                android:visibility="gone"
+                android:orientation="vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linLayoutContacts"
+            android:id="@+id/text2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/apartment"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/btnClient"
+                android:layout_toStartOf="@+id/btnClient"
+                android:id="@+id/btApartments"/>
+            <LinearLayout
+                android:id="@+id/linLayoutApartments"
+                android:layout_below="@+id/btApartments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:visibility="gone"
+                android:orientation="vertical"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogDateStart"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/linLayoutApartments"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"
+                android:textSize="16sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogDateEnd"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/linLayoutApartments"
+            android:layout_alignRight="@+id/tilDialogDataNotice"
+            android:layout_alignEnd="@+id/tilDialogDataNotice"
+            android:layout_alignParentTop="@+id/tilDialogDateStart">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogDataNotice"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tilDialogDateStart"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogDataOplacheno"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/tilDialogDataNotice"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="16sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogDateDolg"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/tilDialogDataNotice"
+            android:layout_alignRight="@+id/tilDialogDateEnd"
+            android:layout_alignEnd="@+id/tilDialogDateEnd"
+            android:layout_alignParentTop="@+id/tilDialogDataOplacheno">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+               style="?android:attr/buttonStyleSmall"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+            android:id="@+id/btnApartment"
+
+
+            android:background="@drawable/ic_content_add_box"
+            android:layout_below="@+id/text2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/applicants"
+            android:layout_below="@+id/tilDialogDataOplacheno"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <ImageButton
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:id="@+id/btnClient"
+
+
+            android:background="@drawable/ic_content_add_box"
+            android:layout_below="@+id/searchView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

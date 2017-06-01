@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="app_name">Organizador do Hotel </string>
+
+        
+    <string name="date_start">Data </string>
+         
+    <string name="debt">Dívida </string>
+         
+    <string name="delete_all_apartment">Excluir TODAS as informações do apartamento </string>
+         
+    <string name="delete_all_client">Excluir TODAS as informações de contato </string>
+         
+    <string name="delete_all_data">Excluir TODAS as informações de data </string>
+         
+    <string name="dialog_apartment_add">Adicionar novo apartamento </string>
+         
+    <string name="dialog_back">Voltar </string>
+         
+    <string name="dialog_cancel">Cancelar </string>
+         
+    <string name="dialog_client_add">Adicionar novo contato </string>
+        
+    <string name="dialog_close">Fechar </string>
+         
+    <string name="dialog_data_add">Adicionar novos dados </string>
+         
+    <string name="dialog_deleting_apartment"> Excluir info do apartamento </string>
+         
+    <string name="dialog_deleting_client"> Excluir contato\'s info </string>
+         
+    <string name="dialog_deleting_data"> Excluir informações de dados </string>
+         
+    <string name="dialog_editing_apartment"> Editar info do apartamento </string>
+         
+    <string name="dialog_editing_apartment_edit"> Editar apartamento </string>
+         
+    <string name="dialog_editing_client"> Editar informações do cliente </string>
+         
+    <string name="dialog_editing_client_edit"> Editar contato </string>
+         
+    <string name="dialog_editing_data"> Editar informações de dados </string>
+        
+    <string name="dialog_editing_data_edit"> Editando dados </string>
+     
+    <string name="dialog_error_empty_address"> Erro: endereço vazio ou breve descrição </string>
+         
+    <string name="dialog_error_empty_family_name"> Erro: vazio Last Name </string>
+         
+    <string name="dialog_error_empty_mobil"> Erro: número do telefone vazio </string>
+         
+    <string name="dialog_error_empty_name"> Erro: vazio Nome </string>
+         
+    <string name="dialog_error_empty_oplacheno"> Erro: vazio pago </string>
+        
+    <string name="dialog_error_empty_shortcut"> Erro: atalho vazio </string>
+         
+    <string name="dialog_error_empty_start_day"> Erro: dia de início vazio </string>
+         
+    <string name="dialog_next"> Próxima </string>
+        
+    <string name="dialog_ok"> OK </string>
+         
+    <string name="dialog_removing_message_apartment"> Tem certeza de que deseja excluir este apartamento? Todos os dados associados serão apagados </string>
+         
+    <string name="dialog_removing_message_apartment_all"> Tem certeza de que deseja excluir TODOS os apartamentos? </string>
+         
+    <string name="dialog_removing_message_client"> Tem certeza de que deseja excluir este contato? </string>
+         
+    <string name="dialog_removing_message_client_all"> Tem a certeza de que pretende eliminar ALL contact? </string>
+         
+    <string name="dialog_removing_message_data"> Tem certeza de que deseja excluir esses dados? </string>
+         
+    <string name="dialog_removing_message_data_all"> Tem certeza de que deseja excluir TODA a data? </string>
+         
+    <string name="dissmiss"> Dismiss </string>
+         
+    <string name="download"> Download </string>
+         
+    <string name="email"> E-mail </string>
+         
+    <string name="end_date"> Data de término </string>
+     
+    <string name="failed_import_photo"> Falha na importação da foto </string>
+         
+    <string name="file_not_found"> ​​Arquivo não encontrado </string>
+        
+    <string name="file_selected"> Arquivo selecionado </string>
+        
+    <string name="file_write_failed"> Sincronização arquivada </string>
+         
+    <string name="first_name"> Nome </string>
+         
+    <string name="free_apartment"> Apartamento grátis </string>
+         
+    <string name="guide"> Guia </string>
+        
+    <string name="help1"> Clique no ícone sob a forma de três pontos no canto superior direito. Vá para \"Apartamentos\" </string>
+        
+    <string name="help2"> Pressione o círculo com um sinal de mais para adicionar as informações no apartamento. Aqui você pode editar e excluir esses dados </string>
+         
+    <string name="help3"> "Depois de criar o número necessário de registros planos volte para a tabela" </string>
+         
+    <string name="help4"> Você pode chamar o menu guia no canto superior direito. Agora clique no ícone com o sinal de mais para preencher os dados para as datas desejadas. No final do diálogo, você pode selecionar \"Confirmado\" ou \"Reservado\" </string>
+         
+    <string name="help5"> Clicando em uma célula vazia, você também chama a criação de um diálogo. </string>
+         
+    <string name="help6"> Ao clicar em uma célula com dados, você pode acessar informações completas. Se você clicar no ícone de telefone azul, você pode chamar o número selecionado. </string>
+         
+    <string name="help7"> Se pressionar longamente os dados da célula, você pode abrir o menu de contexto </string>
+         
+    <string name="help8"> "Clique no ícone no canto superior esquerdo. Aqui você pode ver o apartamento, disponível hoje, os dados são agora apartamentos ocupados e datas reservadas.No reservado você pode chamar menu de contexto.Os dados obsoletos são automaticamente excluídos depois de um mês "</string>
+         
+    <string name="help9"> No canto superior direito há um item no \"Sync\". Se você ativar a sincronização, os dados serão salvos automaticamente no Dropbox. Outros, quando o dispositivo for ligado, sincronizará automaticamente os dados armazenados na nuvem. </string>
+         
+    <string name="import_cancel"> Importar cancelar </string>
+         
+    <string name="location"> Localização </string>
+         
+    <string name="login_dropbox"> Login Dropbox </string>
+         
+    <string name="login_with_dropbox"> Login com Dropbox </string>
+         
+    <string name="mobil"> Mobil </string>
+         
+    <string name="move_data"> Mover dados </string>
+         
+    <string name="navigation_drawer_close"> Fechar a gaveta de navegação </string>
+         
+    <string name="navigation_drawer_open"> Abra a gaveta de navegação </string>
+         
+    <string name="new_client"> Novo contato </string>
+         
+    <string name="next"> Próxima </string>
+         
+    <string name="no_data"> Nenhum dado </string>
+         
+    <string name="notice"> Aviso </string>
+     
+    <string name="occupied_apartments"> Apartamentos ocupados </string>
+         
+    <string name="online"> Online </string>
+         
+    <string name="open_info"> Informação aberta </string>
+         
+    <string name="paid"> Pago </string>
+         
+    <string name="payment"> Pagamento </string>
+         
+    <string name="please_waite"> "Por favor, aguarde - os dados agora são apagados" </string>
+         
+    <string name="popup_menu_item_2"> Item de menu popup 2 </string>
+         
+    <string name="rate_app"> Rate app </string>
+         
+    <string name="removed"> A informação do contato foi removida </string>
+         
+    <string name="removed_apartment"> O apartamento foi removido </string>
+         
+    <string name="removed_data"> A data foi removida </string>
+         
+    <string name="select_2nd_item"> Selecione 2-nd item </string>
+         
+    <string name="select_action"> Selecione ação </string>
+         
+    <string name="setting"> Configuração </string>
+        
+    <string name="shortcut"> Atalho </string>
+         
+    <string name="start_date"> Data de início </string>
+         
+    <string name="success_sync"> Sincronização de sucesso </string>
+         
+    <string name="sure_confirm"> Tem certeza de que deseja confirmar dados? </string>
+         
+    <string name="sync_filed"> Sincronização arquivada </string>
+         
+    <string name="table"> Tabela </string>
+        
+    <string name="title_activity_files"> Arquivos </string>
+         
+    <string name="to_rate_it"> Se você gosta do nosso aplicativo, por favor, dedique um momento a classificá-lo </string>
+     
+    <string name="address"> Endereço do apartamento </string>
+          
+    <string name="address_or_short_description"> Endereço ou descrição curta </string>
+          
+    <string name="apartment"> Apartamento </string>
+          
+    <string name="apartment_adding_cancel"> Apartamento adicionando cancel </string>
+            
+    <string name="applicants"> Reservado </string>
+          
+    <string name="back"> Voltar </string>
+          
+    <string name="cant_read_folder"> Não é possível ler a pasta </string>
+          
+    <string name="client"> Contato\'s </string>
+          
+    <string name="client_adding_cancel"> Contato adicionando cancel </string>
+          
+    <string name="confirm"> Confirm </string>
+          
+    <string name="data_adding_cancel"> Dados adicionando cancel </string>
+          
+    <string name="date_info"> Data info </string>
+    <string name="video_guide">Guia de vídeo</string>
+</resources>

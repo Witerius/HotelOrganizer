@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/gray_50">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tvApartmentOccupied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentLeft="true"
+            android:maxLines="1"
+            android:gravity="left"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvNameOccupied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="1"
+            android:layout_below="@+id/tvApartmentOccupied"
+            android:textColor="@color/primary_text_default_material_light"
+
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tvDateOccupied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvNameOccupied"
+            android:textColor="@color/primary_text_default_material_light"
+
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>
